@@ -14,7 +14,7 @@ int suhuRata (int kumpulanSuhu[], int n) {
     rataRata = totalSuhu / n;
   }
 
-  printf("Rata-rata suhu mingguan: %.2f derajat\n", rataRata);
+  printf("Rata-rata suhu mingguan: %.2f°C\n", rataRata);
   printf("\n");
   printf("Rata-rata Cuaca: ");
 
@@ -39,7 +39,7 @@ int main() {
     printf("\n");
 
     for ( i = 0; i < UKURAN_ARRAY; i++) {
-      printf("Masukkan suhu hari ke-%d: ", i + 1);
+      printf("Masukkan suhu (°C) hari ke-%d: ", i + 1);
       scanf("%d", &angkaInput[i]);
     }
 
